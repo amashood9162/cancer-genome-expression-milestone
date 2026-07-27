@@ -33,3 +33,4 @@ dds <- DESeqDataSetFromMatrix(
 dds$sample_type.samples <- relevel(dds$sample_type.samples, ref = "Solid Tissue Normal")
 
 dds
+saveRDS(dds, "data/dds_raw.rds")
