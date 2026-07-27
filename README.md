@@ -16,6 +16,8 @@ identifying candidate genes with therapeutic relevance.
 - PCA confirms clear separation between tumor and normal samples at the 
   transcriptome level
 - Top significant genes visualized via volcano plot and heatmap
+-PCA analysis confirmed strong separation between tumor and normal transcriptomes,
+validating the pipeline's biological accuracy before proceeding to differential expression testing.
 
 ## Files
 - `scripts/01_data_prep.R` — data loading, cleaning, DESeq2 dataset construction
