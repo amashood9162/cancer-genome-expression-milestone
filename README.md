@@ -11,6 +11,8 @@ identifying candidate genes with therapeutic relevance.
 - **Significance criteria:** adjusted p-value < 0.05, |log2FC| > 1
 
 ## Key Results
+PCA analysis confirmed strong separation between tumor and normal transcriptomes,
+validating the pipeline's biological accuracy before proceeding to differential expression testing.
 - 28,943 genes significantly differentially expressed (18,299 up, 10,644 down)
 - 12,173 genes pass strict significance + fold-change filtering
 - PCA confirms clear separation between tumor and normal samples at the 
